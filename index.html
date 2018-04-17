@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="Doug">
+	<title>ISO Model</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+<div class="container" id="">
+	<table class="table">
+  <h1 class="text-center">OSI (Open Systems Interconnection) Model</h1>
+  <thead>
+    <tr>
+      <th scope="col">Layer</th>
+      <th scope="col">Application</th>
+      <th scope="col">Device</th>
+      <th scope="col">Protocols</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr id="application-layer">
+      <th scope="row">(7) Application</th>
+      <!-- Application -->
+      <td>End Users<br>Netwrok Process to Application</td>
+      <!-- Device -->
+      <td>VoIP,Laptop<br>Firewalls,Servers</td>
+      <!-- Protocols -->
+      <td>HTTP, SFTP, DNS<br>SNMP,SMTP</td>
+    </tr>
+    <tr id="presentation-layer">
+      <th scope="row">(6) Presentation</th>
+      <!-- Application -->
+      <td>Encryption<br>Formatting</td>
+      <!-- Device -->
+      <td>Gateways,Firewalls</td>
+      <!-- Protocols -->
+      <td>Jpeg,Gif</td>
+    </tr>
+    <tr id="session-layer">
+      <th scope="row">(5) Session</th>
+      <!-- Application -->
+      <td>Establish a Connection</td>
+      <!-- Device -->
+      <td>Firewalls<br>Intrusion Detection Systems</td>
+      <!-- Protocols -->
+      <td>NetBIOS,SAP</td>
+    </tr>
+    <tr id="transport-layer">
+    	<th scope="row">(4) Transport</th>
+    	<!-- Application -->
+    	<td>Transmisison of data segments</td>
+    	<!-- Device -->
+    	<td>Gateways</td>
+    	<!-- Protocols -->
+    	<td>TCP,UDP</td>
+    </tr>
+    <tr id="network-layer">
+    	<th scope="row">(3) Network</th>
+    	<!-- Application -->
+    	<td>Route to Destination<br>IP (logical addressing)<br>Packets</td>
+    	<!-- Device -->
+    	<td>Routers<br></td>
+    	<!-- Protocols -->
+    	<td>IP,IPX,ICMP,IPv4,IPv6</td>
+    </tr>
+    <tr id="datalink-layer">
+    	<th scope="row">(2) Data-Link</th>
+    	<!-- Application -->
+    	<td>MAC (physical addressing)<br>Transmission of data frames</td>
+    	<!-- Device -->
+    	<td>Switches<br>Bridges</td>
+    	<!-- Protocols -->
+    	<td>PPP, IEEE<br>Ethernet</td>
+    </tr>
+    <tr id="physical-layer">
+    	<th scope="row">(1) Physical</th>
+    	<!-- Application -->
+    	<td>Transimission and reception<br>of raw bit streams (1's &amp; 0's)</td>
+    	<!-- Device -->
+    	<td>Access Media<br>Cabling (fiber,coaxial)<br>Hubs<br>Repeaters<br>NIC</td>
+    	<!-- Protocols -->
+    	<td>DSL<br>10BaseT<br>100BaseT</td>
+    </tr>
+  </tbody>
+  <p>Please Do Not Throw Sausage Pizza Away</p>
+</table>
+
+
+</div><!-- Top Banner -->
+</body>
+</html>

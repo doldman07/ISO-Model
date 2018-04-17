@@ -1,0 +1,31 @@
+#application-layer 
+{
+	background-color: #00b7b7;
+}
+#presentation-layer
+{
+	background-color: #00db6e;
+}
+#session-layer {
+	background-color: #dbdb00;
+}
+#transport-layer
+{
+	background-color: #F78181;
+}
+#network-layer
+{
+	background-color: #F7BE81;
+}
+#datalink-layer
+{
+	background-color: #FE2E64;
+}
+#physical-layer
+{
+	background-color: #5882FA;
+}
+#layers 
+{
+	border-bottom: 1px solid black;
+}
